@@ -1,0 +1,28 @@
+/* custome color */
+:root {
+    --global-color-1: blue;
+}
+/*styles for the elements*/
+body {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 100%;
+}
+/*styles for the header*/
+h1 {
+    font-size: 200%;
+    color: var(--global-color-1);
+}
+/*styles for the main*/
+h2 {
+    font-size: 150%;
+    color:blueviolet;
+}
+h2 + p {
+    font-size: 125%;
+    color:crimson;
+}
+/* stylese for the footer*/
+footer p {
+    font-size: 80%;
+    text-align: center;
+}
