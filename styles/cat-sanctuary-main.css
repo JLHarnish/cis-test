@@ -1,27 +1,38 @@
 /* custome color */
 :root {
-    --global-color-1: blue;
+    --global-color-1: #0000ff;
+    --global-color-2: #8a2be2;
 }
 /*styles for the elements*/
 body {
-    font-family:Arial, Helvetica, sans-serif;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-size: 100%;
 }
 /*styles for the header*/
+header img {
+    float:left
+}
 h1 {
     font-size: 200%;
     color: var(--global-color-1);
 }
 /*styles for the main*/
+main {
+    clear: left;
+}
 h2 {
     font-size: 150%;
-    color:blueviolet;
+    color: var(--global-color-2);
+    text-indent: 30px;
 }
 h2 + p {
     font-size: 125%;
-    color:crimson;
+    color: var(--global-color-1);
 }
-/* stylese for the footer*/
+.ol li {
+    color: var(--global-color-2);
+}
+/* styles for the footer*/
 footer p {
     font-size: 80%;
     text-align: center;
