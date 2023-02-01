@@ -34,10 +34,8 @@ main li {
     color: var(--global-color-2);
 }
 /* styles for the footer*/
-footer p {
+#copyright { 
+    color: var(--global-color-1);
     font-size: 80%;
     text-align: center;
-}
-#copyright { 
-    color: var(--global-color-1)
 }
